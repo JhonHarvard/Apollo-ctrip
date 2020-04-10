@@ -9,9 +9,9 @@ MAINTAINER ameizi <sxyx2008@163.com>
 ENV VERSION 1.7.0-SNAPSHOT
 ENV SERVER_PORT 8080
 # DataSource Info
-ENV DS_URL "dbm-mysql.cjwcdmfppilt.rds.cn-north-1.amazonaws.com.cn:3306/ApolloConfigDB?characterEncoding=utf8"
-ENV DS_USERNAME "dbmadmin"
-ENV DS_PASSWORD "dbm!20200402HH"
+ENV DS_URL ""
+ENV DS_USERNAME ""
+ENV DS_PASSWORD ""
 
 RUN echo "http://mirrors.aliyun.com/alpine/v3.8/main" > /etc/apk/repositories \
     && echo "http://mirrors.aliyun.com/alpine/v3.8/community" >> /etc/apk/repositories \
